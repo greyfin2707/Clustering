@@ -21,4 +21,14 @@ The tslearn and sklearn libraries were used to cluster the time series. The meth
 For convenience, graphs of each cryptocurrency were plotted and grouped into clusters. Also the information was uploaded to csv files hour_conclusion_kmeans.csv and hour_conclusion_dtw.csv
 
 # Conclusion:
-DTW method coped better with cryptocurrency time series clustering - especially this method, in contrast to Kmeans, was able to display some cryptocurrencies with extreme graphs (for example, BTCB) in a separate cluster. Despite this, some extreme data failed to cluster successfully. Anyway, both methods failed to cope 100%, but we can see the obvious patterns according to which cryptocurrencies were clustered, which gives already a good result.
+DTW method coped better with cryptocurrency time series clustering - especially this method, in contrast to Kmeans, was able to display some cryptocurrencies with extreme graphs (for example, BTCB) in a separate cluster. 
+
+![image](https://user-images.githubusercontent.com/87248163/136692911-61886d9e-1913-4153-abd6-0778f3f0e517.png)
+
+Despite this, some extreme data failed to cluster successfully. 
+
+![image](https://user-images.githubusercontent.com/87248163/136692954-c3462e0c-edf4-4577-8f05-e80cd0ef9756.png)
+
+Anyway, both methods failed to cope 100%, but we can see the obvious patterns according to which cryptocurrencies were clustered, which gives already a good result.
+
+
