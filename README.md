@@ -6,6 +6,9 @@ This code is designed to cluster two hundred cryptocurrencies by time series. Fo
 
 The variable names stores cryptocurrency tickers. You can remove unnecessary cryptocurrencies by simply removing tickers that are unnecessary to you. You can also add new tickers, but for that you need the data of added cryptocurrencies to be available in cryptocompare library.
 
+![image](https://user-images.githubusercontent.com/87248163/136692809-343b5b0f-12e8-48e7-bd68-53ae61f26bfa.png)
+
+
 The data was then pre-prepared for convenience (so, for example, the column 'index' was renamed to 'ticker').
 
 The tslearn and sklearn libraries were used to cluster the time series. The methods that were used: Kmeans, DTW (Dynamic Time Warping). The number of clusters was determined using silhouette_score and distortions (their graphs were plotted for this purpose). As a result, 5 clusters were chosen for Kmeans method and 7 for DTW. For convenience, graphs of each cryptocurrency were plotted and grouped into clusters. Also the information was uploaded to csv files hour_conclusion_kmeans.csv and hour_conclusion_dtw.csv
