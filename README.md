@@ -11,7 +11,14 @@ The variable names stores cryptocurrency tickers. You can remove unnecessary cry
 
 The data was then pre-prepared for convenience (so, for example, the column 'index' was renamed to 'ticker').
 
-The tslearn and sklearn libraries were used to cluster the time series. The methods that were used: Kmeans, DTW (Dynamic Time Warping). The number of clusters was determined using silhouette_score and distortions (their graphs were plotted for this purpose). As a result, 5 clusters were chosen for Kmeans method and 7 for DTW. For convenience, graphs of each cryptocurrency were plotted and grouped into clusters. Also the information was uploaded to csv files hour_conclusion_kmeans.csv and hour_conclusion_dtw.csv
+The tslearn and sklearn libraries were used to cluster the time series. The methods that were used: Kmeans, DTW (Dynamic Time Warping). The number of clusters was determined using silhouette_score and distortions (their graphs were plotted for this purpose). As a result, 5 clusters were chosen for Kmeans method and 7 for DTW. 
+
+![image](https://user-images.githubusercontent.com/87248163/136692854-62ff3506-bdd7-4ca2-92b1-6a40e9037894.png)
+
+![image](https://user-images.githubusercontent.com/87248163/136692868-f2e7439d-35c2-4cc9-bddf-96634d1d8973.png)
+
+
+For convenience, graphs of each cryptocurrency were plotted and grouped into clusters. Also the information was uploaded to csv files hour_conclusion_kmeans.csv and hour_conclusion_dtw.csv
 
 # Conclusion:
 DTW method coped better with cryptocurrency time series clustering - especially this method, in contrast to Kmeans, was able to display some cryptocurrencies with extreme graphs (for example, BTCB) in a separate cluster. Despite this, some extreme data failed to cluster successfully. Anyway, both methods failed to cope 100%, but we can see the obvious patterns according to which cryptocurrencies were clustered, which gives already a good result.
