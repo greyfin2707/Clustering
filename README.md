@@ -33,6 +33,7 @@ October, 10
 Despite this, some extreme data failed to cluster successfully. 
 
 October, 10
+
 ![image](https://user-images.githubusercontent.com/87248163/136692954-c3462e0c-edf4-4577-8f05-e80cd0ef9756.png)
 
 Anyway, both methods failed to cope 100%, but we can see the obvious patterns according to which cryptocurrencies were clustered, which gives already a good result.
