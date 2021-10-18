@@ -23,6 +23,8 @@ For convenience, graphs of each cryptocurrency were plotted and grouped into clu
 # Conclusion:
 DTW method coped better with cryptocurrency time series clustering - especially this method, in contrast to Kmeans, was able to display some cryptocurrencies with extreme graphs (for example, BTCB) in a separate cluster. 
 
+![image](https://user-images.githubusercontent.com/87248163/137759855-06d9898f-74ce-4cf7-8c0d-b7d1e51b53c0.png)
+
 ![image](https://user-images.githubusercontent.com/87248163/136692911-61886d9e-1913-4153-abd6-0778f3f0e517.png)
 
 Despite this, some extreme data failed to cluster successfully. 
