@@ -25,6 +25,7 @@ DTW method coped better with cryptocurrency time series clustering - especially 
 
 October, 18
 ![image](https://user-images.githubusercontent.com/87248163/137759855-06d9898f-74ce-4cf7-8c0d-b7d1e51b53c0.png)
+![image](https://user-images.githubusercontent.com/87248163/137760180-ec09cf26-eb82-40a5-8db4-9a7475a28b53.png)
 
 October, 10
 ![image](https://user-images.githubusercontent.com/87248163/136692911-61886d9e-1913-4153-abd6-0778f3f0e517.png)
